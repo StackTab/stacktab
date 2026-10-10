@@ -1,0 +1,162 @@
+[
+  {
+    "id": "tabintel",
+    "slug": "tabintel",
+    "name": "TabIntel",
+    "headline": "Duplicate Tab Manager & Tab Search",
+    "tagline": "Find and clean duplicate tabs, manage all your tabs, and search across your open tabs.",
+    "category": "Productivity",
+    "badge": "Popular",
+    "version": "1.0.0",
+    "manifest": "Manifest V3",
+    "storeId": "nlgfdajjjfdegnlgbhfmnpbejlkodfpa",
+    "cwsUrl": "https://chromewebstore.google.com/detail/tabintel-%E2%80%94-duplicate-tab/nlgfdajjjfdegnlgbhfmnpbejlkodfpa",
+    "edgeUrl": "https://microsoftedge.microsoft.com/addons/detail/tabintel-%E2%80%94-duplicate-tab-/fcmbhdagmkmeladpfmdbokainmglfplb",
+    "icon": "https://lh3.googleusercontent.com/ffLU89UXKnUv7_wAxvmsLTnuIzN7d7hI5Ie-gY6ArW4Hcwn-ZpBa8jyCspzKiXXOOPrJ8i-ggaSCpnaS_tBR6CgM4w=s128-rj-sc0x00ffffff",
+    "detailPath": "./extensions/tabintel/",
+    "privacyPath": "./extensions/tabintel/privacy.html",
+    "accentColor": "#38bdf8",
+    "shortcuts": [
+      { "os": "Windows / Linux", "keys": "Ctrl + Shift + E" },
+      { "os": "macOS", "keys": "Cmd + Shift + E" }
+    ],
+    "highlights": [
+      "Instant duplicate detection across all open windows & tab groups",
+      "Exact URL vs. Domain level duplicate matching modes",
+      "One-click smart clean (retain oldest or newest tab)",
+      "Instant omni-search across tab titles, URLs, and favicons",
+      "Zero telemetry, 100% on-device local execution"
+    ],
+    "stats": {
+      "rating": "5.0 ★",
+      "speed": "< 12ms",
+      "privacy": "Zero-Log"
+    },
+    "features": [
+      {
+        "title": "Smart Duplicate Detection",
+        "description": "Scans across all open windows in milliseconds. Groups tabs by URL or domain so you can reclaim RAM without accidentally closing important work.",
+        "icon": "layers"
+      },
+      {
+        "title": "Keyboard-First Omni-Search",
+        "description": "Never hunt for lost documentation again. Open the extension with Ctrl+Shift+E, type a few letters, and jump directly to the target tab.",
+        "icon": "search"
+      },
+      {
+        "title": "Configurable Deduplication Rules",
+        "description": "Choose whether you prefer keeping the earliest created tab or the newest tab when cleaning duplicates, with non-destructive grouping options.",
+        "icon": "sliders"
+      },
+      {
+        "title": "Private & Air-Gapped Operation",
+        "description": "Does not track, inspect, or transmit your URLs. All processing executes purely in your browser's local memory.",
+        "icon": "shield-check"
+      }
+    ],
+    "permissions": [
+      {
+        "permission": "tabs",
+        "purpose": "Used strictly on-device to inspect open tab URLs and titles for duplicate detection and tab navigation."
+      },
+      {
+        "permission": "storage",
+        "purpose": "Saves your custom matching preferences and cleanup settings locally in Chrome sync storage."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Does TabIntel transmit my browsing history or open URLs to external servers?",
+        "a": "No. TabIntel is strictly local-first. All tab comparisons and searches occur purely inside your Chrome browser memory. No servers, no tracking scripts, no third-party analytics."
+      },
+      {
+        "q": "What happens when I click 'Clean Duplicates'?",
+        "a": "TabIntel evaluates duplicate pairs and retains either the oldest or newest tab according to your preference, safely closing only the duplicates."
+      },
+      {
+        "q": "Can I use TabIntel across multiple browser windows?",
+        "a": "Yes! TabIntel scans and aggregates tabs across all active Chrome windows and tab groups."
+      }
+    ]
+  },
+  {
+    "id": "path-jump",
+    "slug": "path-jump",
+    "name": "Path Jump",
+    "headline": "URL Path Navigator & Environment Switcher",
+    "tagline": "Save URL paths and jump to them instantly on any website or environment.",
+    "category": "Developer Tools",
+    "badge": "Dev Essential",
+    "version": "1.0.0",
+    "manifest": "Manifest V3",
+    "storeId": "fbomikgcaliadepbcadbajcaghiamadk",
+    "cwsUrl": "https://chromewebstore.google.com/detail/path-jump-%E2%80%93-url-path-navi/fbomikgcaliadepbcadbajcaghiamadk",
+    "edgeUrl": "https://microsoftedge.microsoft.com/addons/detail/path-jump-%E2%80%93-url-path-navi/cmipbnlnjjcbahcfjdpcniniapegjiih",
+    "icon": "https://lh3.googleusercontent.com/1Hhu9_CaQlaKzqNiX6o8yVSL1Tf9ZnGZ1SLo2OvlbSqWADqZbCbTCXiaI6hHaf9NZhV9dikCs4TBpAMqWzMNbHpj=s128-rj-sc0x00ffffff",
+    "detailPath": "./extensions/path-jump/",
+    "privacyPath": "./extensions/path-jump/privacy.html",
+    "accentColor": "#818cf8",
+    "shortcuts": [
+      { "os": "Windows / Linux", "keys": "Alt + P" },
+      { "os": "macOS", "keys": "Option + P" }
+    ],
+    "highlights": [
+      "Save frequently used path segments (/admin, /settings, /api/v1)",
+      "Instant environment transposition (localhost:3000 ↔ staging ↔ prod)",
+      "Fuzzy path search and quick-launch command palette",
+      "Dynamic parameter templating and path bookmarking",
+      "Zero telemetry, no server storage"
+    ],
+    "stats": {
+      "rating": "5.0 ★",
+      "speed": "Instant",
+      "privacy": "Zero-Log"
+    },
+    "features": [
+      {
+        "title": "Instant Path Jumping",
+        "description": "Bookmark complex, nested URL routes like /api/v2/webhooks or /settings/team. Jump to them on whatever domain you are currently browsing with a single keypress.",
+        "icon": "compass"
+      },
+      {
+        "title": "Environment Transposition",
+        "description": "Easily swap current base domains between local development (http://localhost:3000), staging, and production while preserving exact deep paths and query params.",
+        "icon": "repeat"
+      },
+      {
+        "title": "Hotkeys & Palette Interface",
+        "description": "Never take your fingers off the keyboard. Press Alt+P (or Option+P) to summon the path palette, hit Enter, and navigate immediately.",
+        "icon": "command"
+      },
+      {
+        "title": "Offline & Security First",
+        "description": "Your internal paths, tokens, and endpoints remain 100% confidential. No telemetry, no cloud synchronization, pure client-side privacy.",
+        "icon": "lock"
+      }
+    ],
+    "permissions": [
+      {
+        "permission": "activeTab",
+        "purpose": "Used only when triggered by user action to retrieve the current URL and append the chosen navigation path."
+      },
+      {
+        "permission": "storage",
+        "purpose": "Stores your saved path presets and environment mappings locally in your Chrome extension storage."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is the primary use case for Path Jump?",
+        "a": "Developers, QA engineers, and power users often test or review routes like /dashboard/billing across multiple environments (local, dev, staging, prod). Path Jump lets you jump or swap domains in one keystroke without manually editing the address bar."
+      },
+      {
+        "q": "Does Path Jump read sensitive authentication tokens or headers?",
+        "a": "No. Path Jump only interacts with the browser's navigation bar URL upon your direct keyboard or click invocation."
+      },
+      {
+        "q": "Can I group paths by project or category?",
+        "a": "Yes, you can tag and categorize your saved path bookmarks for quick contextual filtering."
+      }
+    ]
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "brand": {
+    "name": "StackTab",
+    "suffix": "Studio",
+    "tagline": "Precision Micro-Tools for High-Velocity Browsing",
+    "description": "Local-first, privacy-focused, zero-telemetry Chrome extensions engineered for developers, power users, and workflow purists.",
+    "url": "https://github.com",
+    "githubRepoUrl": "https://github.com",
+    "contactEmail": "support@stacktab.local",
+    "theme": {
+      "accentPrimary": "#38bdf8",
+      "accentSecondary": "#818cf8"
+    }
+  },
+  "navigation": [
+    { "label": "Extensions", "href": "#extensions" },
+    { "label": "Live Demos", "href": "#demos" },
+    { "label": "Security & Trust", "href": "#trust" },
+    { "label": "FAQ", "href": "#faq" }
+  ],
+  "trustBadges": [
+    { "icon": "shield", "title": "100% Local-First", "desc": "Zero data sent to external servers. Your tabs and history stay on your device." },
+    { "icon": "cpu", "title": "Zero Memory Drag", "desc": "Strict Manifest V3 service-worker design with zero background idle CPU drain." },
+    { "icon": "key", "title": "Keyboard Driven", "desc": "Engineered for speed with global hotkeys and intuitive palette interactions." },
+    { "icon": "check", "title": "Verified CWS Compliant", "desc": "Built to the highest Google Chrome Web Store security standards." }
+  ]
+}
