@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+Allow: /assets/images/
+Allow: /favicon.ico
+
+Sitemap: https://stacktab.github.io/stacktab/sitemap.xml
